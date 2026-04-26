@@ -1,0 +1,13 @@
+venv/
+__pycache__/
+*.pyc
+nvd_cves.json
+train.json
+val.json
+test.json
+zeroshot_results.json
+checkpoint.txt
+*.pt
+*.bin
+*.safetensors
+models/
