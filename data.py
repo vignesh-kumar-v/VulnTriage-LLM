@@ -3,7 +3,7 @@ import json
 import os
 import datetime
 
-API_KEY = "1fa9aa52-2d8b-4757-9b6b-45b67fd883b5"
+API_KEY = os.environ.get("NVD_API_KEY", "")
 OUTPUT_FILE = "nvd_cves.json"
 CHECKPOINT_FILE = "checkpoint.txt"
 START_YEAR = 2015
