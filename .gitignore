@@ -10,4 +10,6 @@ checkpoint.txt
 *.pt
 *.bin
 *.safetensors
-models/
+models/.DS_Store
+llama-vuln-qlora/
+secbert-vuln/
